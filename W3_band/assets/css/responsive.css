@@ -1,0 +1,87 @@
+/*-----Break Point--------*/
+/*Kích thước pc*/
+@media (min-width: 1024px){
+    
+}
+
+@media (max-width: 1023px){
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+    .place-buy-btn{
+        padding: 16px 16px;
+    }
+    .form-control{
+        padding: 15px;
+    }
+    .contact-form .form-submit-btn{
+        padding: 16px 35px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    #footer {
+        font-size: 40px;
+    }
+    #footer i{
+        
+        padding: 0 16px ;
+    }
+}
+
+/*Kích thước ipad*/
+@media (min-width: 740px) and (max-width: 1024px){}
+    .modal{
+        padding: 0 18px;
+    }
+/*Kích thước mobile*/
+@media (max-width: 739px){
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-max-width{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav >li >a{
+        padding: 2px 24px;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 42px;
+    }
+    
+    #content .member-img{
+        width: 70%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+    .modal{
+        padding: 0 18px;
+    }
+}
